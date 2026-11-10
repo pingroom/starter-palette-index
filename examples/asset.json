@@ -1,0 +1,90 @@
+{
+  "assetId": "practice-badge",
+  "title": "Practice display badge",
+  "usage": "Choose the palette required by the destination display.",
+  "width": 3,
+  "height": 2,
+  "pixels": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      128,
+      128,
+      128
+    ],
+    [
+      255,
+      0,
+      0
+    ],
+    [
+      0,
+      255,
+      0
+    ],
+    [
+      0,
+      0,
+      255
+    ]
+  ],
+  "palettes": [
+    {
+      "id": "mono",
+      "label": "Mono display",
+      "purpose": "Two-color destination",
+      "colors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "id": "rgb",
+      "label": "RGB accents",
+      "purpose": "Five-color destination",
+      "colors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ]
+      ]
+    }
+  ]
+}
